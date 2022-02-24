@@ -12,7 +12,29 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Priyanka</small>
+          <small>
+            This Project was coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/priyanka-ganesh-950629206/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Priyanka{" "}
+            </a>
+            and is{" "}
+            <a href="https://github.com/PSK76" target="_blank" rel="noreferrer">
+              Open-Sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://peaceful-allen-df626a.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              hosted on Netlify
+            </a>
+            .
+          </small>
         </footer>
       </div>
     </div>
