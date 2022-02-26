@@ -1,15 +1,21 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import Icon from "./Icon.png";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <em>Dictionary</em>
+          <img
+            src={Icon}
+            className="App-logo img-fluid"
+            alt="logo"
+            width={150}
+          />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="food" />
         </main>
         <footer className="App-footer">
           <small>
@@ -19,8 +25,8 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
             >
-              Priyanka{" "}
-            </a>
+              Priyanka
+            </a>{" "}
             and is{" "}
             <a href="https://github.com/PSK76" target="_blank" rel="noreferrer">
               Open-Sourced on GitHub
