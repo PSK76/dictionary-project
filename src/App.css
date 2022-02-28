@@ -1,8 +1,14 @@
+body {
+  background: #f9eeee;
+}
+
 .App-logo {
   margin: 10px;
 }
+
 .App {
-  background: #f9eeee;
+  max-width: 950px;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -11,10 +17,6 @@
   font-size: 28px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-  max-width: 800px;
 }
 
 .App-footer {
