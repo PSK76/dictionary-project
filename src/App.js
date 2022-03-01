@@ -15,7 +15,7 @@ export default function App() {
           />
         </header>
         <main>
-          <Dictionary defaultKeyword="Technology" />
+          <Dictionary defaultKeyword="music" />
         </main>
         <footer className="App-footer">
           <small>
